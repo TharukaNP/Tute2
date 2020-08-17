@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D8EAE5"
+    tools:context=".MainActivity2">
+    android:background="@drawable/gradient"
+
+    <EditText
+        android:id="@+id/cvTv"
+        android:layout_width="407dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:text="@string/Cv"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eTv" />
+
+    <EditText
+        android:id="@+id/eTv"
+        android:layout_width="407dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="17dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:text="@string/Ex"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ncTv" />
+
+    <EditText
+        android:id="@+id/ncTv"
+        android:layout_width="407dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:text="@string/Noc"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cnTv" />
+
+    <TextView
+        android:id="@+id/ckTv"
+        android:layout_width="184dp"
+        android:layout_height="66dp"
+        android:layout_marginBottom="588dp"
+        android:text="@string/Ck1"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PtTv"
+        app:layout_constraintVertical_bias="0.031" />
+
+    <EditText
+        android:id="@+id/PtTv"
+        style="@style/Widget.AppCompat.EditText"
+        android:layout_width="0dp"
+        android:layout_height="58dp"
+        android:background="#EDB767"
+        android:ellipsize="middle"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textMultiLine"
+        android:text="@string/pt"
+        android:textIsSelectable="false"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/cdTv"
+        android:layout_width="141dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/Cd"
+        android:textSize="24sp"
+        app:layout_constraintTop_toBottomOf="@+id/ckTv"
+        tools:layout_editor_absoluteX="15dp" />
+
+    <EditText
+        android:id="@+id/cnTv"
+        android:layout_width="407dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="17dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:text="@string/cn"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cdTv" />
+
+    <Button
+        android:id="@+id/sdTv"
+        android:layout_width="99dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="156dp"
+        android:layout_marginLeft="156dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="156dp"
+        android:layout_marginRight="156dp"
+        android:background="#EAD1AD"
+        android:text="@string/Sv"
+        android:textColor="#050505"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <Button
+        android:id="@+id/dnTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="161dp"
+        android:layout_marginLeft="161dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="162dp"
+        android:layout_marginRight="162dp"
+        android:background="#EAD1AD"
+        android:text="@string/Dn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sdTv" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="359dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginRight="26dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cvTv"
+        app:srcCompat="@drawable/pc1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

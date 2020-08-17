@@ -1,5 +1,20 @@
 <resources>
     <string name="app_name">UsingStrings</string>
-    <string name="Msg1">Here I am the text message 1</string>
-    <string name="Msg2">Here I am the text message 2</string>
+    <string name="Ck">CheckOut(1)</string>
+    <string name="nm">Name</string>
+    <string name="Tp">Tel No</string>
+    <string name="Da">Delivery Address</string>
+    <string name="Dn">Next</string>
+    <string name="pt">Payment</string>
+    <string name="Ck1">CheckOut(2)</string>
+    <string name="Ck2">CheckOut(3)</string>
+    <string name="tb">Total Bill</string>
+    <string name="rs">Rs 2700</string>
+    <string name="pn">Pay Now</string>
+    <string name="Cd">Card Details</string>
+    <string name="cn">Card Number</string>
+    <string name="Noc">Name on Card</string>
+    <string name="Ex">Expiration (MM/YY)</string>
+    <string name="Cv">CVV</string>
+    <string name="Sv">Save Details</string>
 </resources>
